@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>login</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <header>
+        <div class="container_h">
+            <img class="logo" src="Imagens/LogoLaranja.svg" alt="Logo Datempo">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre nós</a></li>
+                    <li><a href="#">Produtos</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+                <div class="pesquisa">
+                    <input type="text" id="txtbusca" placeholder="Buscar produtos..." aria-label="Buscar produtos">
+                    <img src="imagens/magnifying-glass-icon.png" id="btnbusca" alt="Buscar">
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="cont-geral">
+            <div class="login">
+                <form method="POST" id="form_login">
+                    <label>
+                        <h2>Login</h2>
+                        Usuário
+                        <input type="text" placeholder="Digite seu nome de usuário..." name="usuario"
+                            aria-label="Digitar seu nome de usúario" required>
+                        Senha
+                        <input type="password" placeholder="Digite sua senha..." name="senha"
+                            aria-label="Digitar sua senha" required>
+                        <button class="btn" type="submit">Entrar</button>
+                    </label>
+                </form>
+            </div>
+
+            <div class="cadastrar">
+                <form method="POST" id="form_cadastro">
+                    <label>
+                        <h2>Cadastrar</h2>
+                        Nome completo
+                        <input type="text" placeholder="Digite seu nome completo..." name="nome"
+                            aria-label="Digite seu nome completo" required>
+                        Cpf/Cnpj
+                        <input type="number" placeholder="Digite seu CPF/CNPJ..." name="cpf/cnpj"
+                            aria-label="Digite seu CPF/CNPJ" required>
+                        Usuário
+                        <input type="text" placeholder="Digite seu nome de usuário..." name="usuario"
+                            aria-label="Digitar seu nome de usúario" required>
+                        Sexo
+                        <input type="text" placeholder="Digite seu sexo biologico" name="sexo"
+                            aria-label="Digite seu sexo" required>
+                        E-mail
+                        <input type="email" placeholder="Digite seu e-mail..." name="e-mail"
+                            aria-label="Digite seu e-mail" required>
+                        Cep
+                        <input type="number" placeholder="Digite seu cep..." name="cep" aria-label="Digite seu cep"
+                            required>
+                        Senha
+                        <input type="password" placeholder="Digite sua senha..." name="senha"
+                            aria-label="Digite sua senha" required>
+
+                        <input type="password" placeholder="Confirme sua senha..." name="senha"
+                            aria-label="Confirme sua senha" required>
+                        <button class="btn" type="submit">Cadastar</button>
+                    </label>
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Alameda Barão de Limeira, 539 - Campos Elíseos, São Paulo - SP</p>
+        <p>Telefone: (11) 3273-5000</p>
+        <div class="redes_sociais">
+            <a href="#"><img src="imagens/facebooklaranja.svg" alt="Link para a página do Facebook"></a>
+            <a href="#"><img src="imagens/instagramlaranja.svg" alt="Link para a página do Instagram"></a>
+            <a href="#"><img src="imagens/linkedinlaranja.svg" alt="Link para a página do Linkedin"></a>
+            <a href="#"><img src="imagens/twitterlaranja.svg" alt="Link para a página do Twitter"></a>
+        </div>
+        <p>Datempo by Linx © 2019</p>
+    </footer>
+</body>
+
+</html>
